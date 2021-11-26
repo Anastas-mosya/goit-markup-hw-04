@@ -311,9 +311,10 @@ body {
 .team-social-list:focus .team-social-link-icon {
   fill: var(--second-text-color);
 }
-.team-contacts:hover,
-.team-contacts:focus {
+.team-social-link:hover,
+.team-social-link:focus {
   background-color: var(--accent-color);
+  border-radius: 50%;
 }
 /*--------CLIENTS----------------*/
 .client-title {
@@ -438,9 +439,10 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
-.join-contacts:hover,
-.join-contacts:focus {
+.join-social-link:hover,
+.join-social-link:focus {
   background-color: var(--accent-color);
+  border-radius: 50%;
 }
 .join-contacts + .join-contacts {
   margin-left: 10px;
@@ -468,8 +470,8 @@ body {
 .buttons-item {
   display: block;
 }
-.button-item-btn:hover .buttons-btn,
-.button-item-btn:focus .buttons-btn {
+.button:hover,
+.button:focus {
   background-color: var(--accent-color);
   cursor: pointer;
   color: var(--main-btn-color);
